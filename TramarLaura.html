@@ -12,14 +12,21 @@
         <button id = "botao">Personalizar Pedido</button>
         <p id = "demo"></p>
 
+        <p id = "text"></p>
+
         <script>
 
             document.getElementById("botao").onclick = function(){
                 
                 let nome = prompt("Por favor, explique como deseja o seu Tramar:");
 
-                document.getElementById('demo').innerHTML = "Vamos personalizar ser pedido então," + nome +"!";
+                document.getElementById('demo').innerHTML = "Vamos personalizar ser pedido então, " + nome +"!";
             };
+
+            document.getElementById("text").innerText = "O crochê é uma arte, para mão delicadas e habilidosas";
+
+            console.log(5+6);
+
 
         </script>
         
