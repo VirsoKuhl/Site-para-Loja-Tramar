@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Tramar Laura</title>
+
+    </head>
+
+    <body> 
+        <h1>Meu nome é Laura e eu me preocupo com a beleza da sua casa</h1>
+
+        <button id = "botao">Personalizar Pedido</button>
+        <p id = "demo"></p>
+
+        <script>
+
+            document.getElementById("botao").onclick = function(){
+                
+                let nome = prompt("Por favor, explique como deseja o seu Tramar:");
+
+                document.getElementById('demo').innerHTML = "Vamos personalizar ser pedido então," + nome +"!";
+            };
+
+        </script>
+        
+    </body>
+
+</html>
